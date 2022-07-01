@@ -149,7 +149,7 @@ typedef struct {
     void *padding[7];
 } Gif_CompressInfo;
 
-#define         Gif_UncompressImage(gfs, gfi) Gif_FullUncompressImage((gfs),(gfi),0)
+#define         Gif_UncompressImage(gfs, gfi)
 int             Gif_FullUncompressImage(Gif_Stream* gfs, Gif_Image* gfi,
                                         Gif_ReadErrorHandler handler);
 int             Gif_CompressImage(Gif_Stream *gfs, Gif_Image *gfi);
